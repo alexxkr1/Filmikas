@@ -7,3 +7,10 @@ exports.getIndex = (req, res) => {
     res.render('index');
 };
 
+exports.getTest = (req, res) => {
+    res.render('Test');
+};
+
+exports.getTests = (req, res) => {
+    res.render('Tests');
+};
